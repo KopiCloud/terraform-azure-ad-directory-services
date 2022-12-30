@@ -1,6 +1,6 @@
-##############################################
-## Active Directory Directory Services NSGs ##
-##############################################
+###########################################
+## Active Directory Domain Services NSGs ##
+###########################################
 
 resource "azurerm_network_security_group" "aadds" {
   name                = "aadds-${var.environment}-nsg"
