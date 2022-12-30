@@ -1,6 +1,6 @@
-#####################################################
-## Active Directory Directory Services - Variables ##
-#####################################################
+##################################################
+## Active Directory Domain Services - Variables ##
+##################################################
 
 # active directory domain name
 variable "ad_domain_name" {
