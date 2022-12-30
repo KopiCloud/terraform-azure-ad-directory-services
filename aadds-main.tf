@@ -1,6 +1,6 @@
-################################################
-## Active Directory Directory Services - Main ##
-################################################
+#############################################
+## Active Directory Domain Services - Main ##
+#############################################
 
 # Creating Azure AD Service Principal
 resource "azuread_service_principal" "aadds" {
