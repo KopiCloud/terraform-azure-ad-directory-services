@@ -24,14 +24,14 @@ variable "admin_user_principal_name" {
 # active directory admin display name
 variable "admin_display_name" {
   type        = string
-  description = "This variable defines the display name of Admin for the Active Directory Directory Services, for example Azure AD DS Admin"
+  description = "This variable defines the display name of Admin for the Active Directory Domain Services, for example Azure AD DS Admin"
   default     = "Azure AD DS Admin"
 }
 
 # active directory admin password
 variable "admin_password" {
   type        = string
-  description = "This variable defines the password of Admin for the Active Directory Directory Services"
+  description = "This variable defines the password of Admin for the Active Directory Domain Services"
 }
 
 # dc admins notification
