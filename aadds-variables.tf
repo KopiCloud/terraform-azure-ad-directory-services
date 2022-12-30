@@ -18,7 +18,7 @@ variable "ad_domain_sku" {
 # active directory admin user principal name
 variable "admin_user_principal_name" {
   type        = string
-  description = "This variable defines the use principal name of Admin for the Active Directory Directory Services, for example dsadmin@kopicloud.com"
+  description = "This variable defines the use principal name of Admin for the Active Directory Domain Services, for example dsadmin@kopicloud.com"
 }
 
 # active directory admin display name
