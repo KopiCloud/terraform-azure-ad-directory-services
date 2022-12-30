@@ -1,6 +1,8 @@
 # How to Deploy Azure Active Directory (AD) Domain Services (AADDS) in Azure with Terraform
 [![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html)
 
+Blog --> https://gmusumeci.medium.com/how-to-deploy-azure-active-directory-ad-domain-services-aadds-with-terraform-4a9551003d38
+
 This code:
 
 * Create the AADDS Service Principal
