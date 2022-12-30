@@ -3,9 +3,9 @@
 ################################################
 
 # Creating Azure AD Service Principal
-/* resource "azuread_service_principal" "aadds" {
+resource "azuread_service_principal" "aadds" {
   application_id = "2565bd9d-da50-47d4-8b85-4c97f669dc36"
-} */
+}
 
 # Create Azure AD Directory Services Admin Group
 resource "azuread_group" "aadds" {
