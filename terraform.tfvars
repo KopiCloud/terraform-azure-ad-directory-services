@@ -20,9 +20,9 @@ azure-client-secret   = "complete-this"
 aadds-vnet-cidr     = "10.170.0.0/16"
 aadds-subnet-cidr   = "10.170.1.0/24"
 
-##################################
-# AD Directory Services Settings #
-##################################
+###############################
+# AD Domain Services Settings #
+###############################
 ad_domain_name            = "kopicloud.com"
 ad_domain_sku             = "Standard"
 admin_user_principal_name = "dsadmin@kopicloud.com"
