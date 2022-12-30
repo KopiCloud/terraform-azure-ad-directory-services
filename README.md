@@ -11,4 +11,4 @@ This code:
 * Create NSG (Network Security Group) to AADDS and attach it to the AADDS Subnet
 * Create AD Admin Group
 * Create an AD Admin User and add it to the AD Admin Group
-* Deploy Azure AD Directory Services resource
+* Deploy Azure AD Domain Services resource
