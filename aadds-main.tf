@@ -7,14 +7,14 @@ resource "azuread_service_principal" "aadds" {
   application_id = "2565bd9d-da50-47d4-8b85-4c97f669dc36"
 }
 
-# Create Azure AD Directory Services Admin Group
+# Create Azure AD Domain Services Admin Group
 resource "azuread_group" "aadds" {
   description      = "AAD DC Administrators"
   display_name     = "AAD DC Administrators"
   security_enabled = true
 }
 
-# Create Azure AD Directory Services Admin
+# Create Azure AD Domain Services Admin
 resource "azuread_user" "aadds" {
   user_principal_name = var.admin_user_principal_name
   display_name        = var.admin_display_name
@@ -27,7 +27,7 @@ resource "azuread_group_member" "aadds" {
   member_object_id = azuread_user.aadds.object_id
 }
 
-# Deploy the Azure Active Directory Directory Services
+# Deploy the Azure Active Directory Domain Services
 resource "azurerm_active_directory_domain_service" "aadds" {
   depends_on = [
     azurerm_subnet_network_security_group_association.aadds
